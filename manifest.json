@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Todo",
+    "version": "1.0",
+    "description": "Manage your todo tasks effectively right from your browser.",
+    "permissions": ["storage","activeTab"],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    }
+}
